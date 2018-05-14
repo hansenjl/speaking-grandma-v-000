@@ -1,4 +1,4 @@
-require 'pry'
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
@@ -12,7 +12,6 @@ require 'pry'
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  binding.pry
   if phrase.upcase == true      
     
   elsif
